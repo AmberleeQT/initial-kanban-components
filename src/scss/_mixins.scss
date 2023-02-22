@@ -1,0 +1,30 @@
+@import './variables';
+
+@mixin heading-xl($color) {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+	color: $color;
+}
+
+@mixin heading-l($color) {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 23px;
+	color: $color;
+}
+
+@mixin heading-m($color) {
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 19px;
+	color: $color;
+}
+
+@mixin heading-s($color: $medium-grey) {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15px;
+	letter-spacing: 2.4px;
+	color: $color;
+}

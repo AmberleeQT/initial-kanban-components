@@ -1,0 +1,19 @@
+form {
+	background-color: $dark-grey;
+	min-width: 400px;
+	width: 80%;
+	max-width: 800px;
+	padding: 32px;
+	margin: 2rem auto;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	// align-items: center;
+
+	border-radius: 6px;
+	h2 {
+		margin-top: 0;
+		width: 100%;
+	}
+}
